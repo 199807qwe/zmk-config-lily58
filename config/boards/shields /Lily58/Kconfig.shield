@@ -1,9 +1,9 @@
 # No whitespace after the comma or in the keyboard name!
-config SHIELD_Lily58_LEFT
+config SHIELD_lily58_left
 	def_bool $(shields_list_contains,Lily58_left)
 
-config SHIELD_Lily58_RIGHT
+config SHIELD_lily58_right
 	def_bool $(shields_list_contains,Lily58_right)
 
-config SHIELD_Lily58_DONGLE
+config SHIELD_lily58_dongle
 	def_bool $(shields_list_contains,Lily58_dongle)
