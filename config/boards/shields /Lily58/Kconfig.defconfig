@@ -1,7 +1,7 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_Lily58_DONGLE
+if SHIELD_lily58_DONGLE
 
 config ZMK_KEYBOARD_NAME
 	default "Lily58 Dongle"
@@ -14,7 +14,7 @@ config ZMK_USB
 
 endif
 
-if SHIELD_Lily58_LEFT || SHIELD_Lily58_RIGHT || SHIELD_Lily58_DONGLE 
+if SHIELD_lily58_LEFT || SHIELD_lily58_RIGHT || SHIELD_lily58_DONGLE 
 
 config ZMK_SPLIT
 	default y
